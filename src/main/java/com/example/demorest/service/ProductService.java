@@ -73,12 +73,6 @@ public class ProductService {
 
     @Transactional
     public void deleteProduct(Long id) {
-
-        System.out.println("GGGGGGGGGGGGGGGG");
-        System.out.println(id);
-        System.out.println("GGGGGGGGGGGGGGGG");
-
-
         productRepository.deleteById(id);
     }
 }
